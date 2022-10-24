@@ -17,4 +17,4 @@ number_of_bits = 2
 minimum_n_value = int(''.join([''.join(["1" for y in range(0, number_of_bits)]) for x in range(0, number_of_candidates)]), 2) + 1  # 256
 
 # for minimum_n_value = 256, voter (number of voter) can't be larger than 3 (maximum number of votes is 3 due to number of binary dedicated to each candidate count is 2 bits (0b11). To accomodate more voter, increase the number_of_bits.
-voter = 6
+voter = 3
